@@ -6,5 +6,8 @@ module.exports = {
       'header':['Rock Salt', 'cursive']
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
+  darkMode:'class',
 }
