@@ -32,7 +32,7 @@ const Navbar = () => {
                 { toogle ? 
                  
                 <  BsToggleOn 
-                    className="text-3xl self-center cursor-pointer"
+                    className="text-3xl self-center cursor-pointer "
                     onClick={ changeMode }
                 />
                 
