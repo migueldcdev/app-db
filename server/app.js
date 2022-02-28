@@ -3,9 +3,9 @@ const app = express();
 const db = require('mariadb/callback');
 
 const pool = db.createPool({
-    host: 'raspberrypi',      
-    user:'admin',
-    password: 'abc123',
+    host: '',      
+    user:'',
+    password: '',
     database: 'app'
 })
 
